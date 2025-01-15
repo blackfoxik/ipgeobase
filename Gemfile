@@ -10,3 +10,9 @@ gem "rake", "~> 13.0"
 gem "minitest", "~> 5.0"
 
 gem "rubocop", "~> 1.21"
+
+gem "webmock"
+
+gem "simplecov", require: false, group: :test
+
+gem "nokogiri-happymapper", require: "happymapper"
